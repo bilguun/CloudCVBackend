@@ -123,31 +123,31 @@
                     ],
 
                     'include_dirs': [
-                        '/home/bibby/CloudCV/opencv-master/opencv-build/include'
+                        '/home/bibby/CloudCV/opencv-build/include'
                     ],
                     
                     'libraries': [
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_contrib.a",
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_stitching.a",
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_nonfree.a",
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_ts.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_videostab.a",
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_gpu.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_legacy.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_ml.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_objdetect.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_calib3d.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_photo.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_video.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_features2d.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_highgui.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/share/OpenCV/3rdparty/lib/liblibtiff.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/share/OpenCV/3rdparty/lib/liblibpng.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/share/OpenCV/3rdparty/lib/liblibjpeg.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_flann.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_imgproc.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_core.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/share/OpenCV/3rdparty/lib/libzlib.a"
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_contrib.a",
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_stitching.a",
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_nonfree.a",
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_ts.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_videostab.a",
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_gpu.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_legacy.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_ml.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_objdetect.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_calib3d.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_photo.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_video.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_features2d.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_highgui.a", 
+                        "/home/bibby/CloudCV/opencv-build/share/OpenCV/3rdparty/lib/liblibtiff.a", 
+                        "/home/bibby/CloudCV/opencv-build/share/OpenCV/3rdparty/lib/liblibpng.a", 
+                        "/home/bibby/CloudCV/opencv-build/share/OpenCV/3rdparty/lib/liblibjpeg.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_flann.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_imgproc.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_core.a", 
+                        "/home/bibby/CloudCV/opencv-build/share/OpenCV/3rdparty/lib/libzlib.a"
                     ],
 
                     'xcode_settings': {
@@ -165,26 +165,31 @@
                     ],
 
                     'include_dirs': [
-                        '/home/bibby/CloudCV/opencv-master/opencv-build/include'
+                        '/home/bibby/CloudCV/opencv-build/include'
                     ],
                     
                     'libraries': [
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_contrib.a",
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_stitching.a",
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_nonfree.a",
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_ts.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_videostab.a",
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_legacy.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_ml.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_objdetect.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_calib3d.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_photo.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_video.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_features2d.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_highgui.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_flann.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_imgproc.a", 
-                        "/home/bibby/CloudCV/opencv-master/opencv-build/lib/libopencv_core.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_contrib.a",
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_stitching.a",
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_nonfree.a",
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_ts.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_videostab.a",
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_gpu.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_legacy.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_ml.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_objdetect.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_calib3d.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_photo.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_video.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_features2d.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_highgui.a", 
+                        "/home/bibby/CloudCV/opencv-build/share/OpenCV/3rdparty/lib/liblibtiff.a", 
+                        "/home/bibby/CloudCV/opencv-build/share/OpenCV/3rdparty/lib/liblibpng.a", 
+                        "/home/bibby/CloudCV/opencv-build/share/OpenCV/3rdparty/lib/liblibjpeg.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_flann.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_imgproc.a", 
+                        "/home/bibby/CloudCV/opencv-build/lib/libopencv_core.a", 
+                        "/home/bibby/CloudCV/opencv-build/share/OpenCV/3rdparty/lib/libzlib.a"
                     ]
                 }]       
             ]
