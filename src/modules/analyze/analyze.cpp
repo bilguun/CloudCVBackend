@@ -169,7 +169,8 @@ void buildFromImage(cv::Mat input, AnalyzeResult& value)
     //cv::Mat normalizedImage;
     //getOptimalSizeImage(input, normalizedImage);
     //input = normalizedImage;
-    input = input[16:1248, 2960:4928];
+    cv::Rect myROI(16, 2960, 1248, 4928);
+    input = input(myROI);
 
     value = AnalyzeResult();
 
