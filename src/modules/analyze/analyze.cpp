@@ -122,7 +122,7 @@ void buildFromImage(cv::Mat input, ImageInformation& value)
         cv::cvtColor(input, value.grayscaleImage, cv::COLOR_BGR2GRAY);
         threshold(value.grayscaleImage, value.grayscaleImage,127,255,CV_THRESH_BINARY);
     }
-    cv::imwrite("/home/bibby/CloudCV/grayImg.jpg", value.grayscaleImage);
+    cv::imwrite("/home/bibby/nodejs/CloudCV/grayImg.jpg", value.grayscaleImage);
     value.hasColor = input.channels() == 3 || input.channels() == 4;
 
     value.frameSize   = input.size();
