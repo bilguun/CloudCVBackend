@@ -166,9 +166,9 @@ void buildFromImage(cv::Mat input, MorphologicInformation& value, int cannyLower
 
 void buildFromImage(cv::Mat input, AnalyzeResult& value)
 {		
-    cv::Mat normalizedImage;
-    getOptimalSizeImage(input, normalizedImage);
-    input = normalizedImage;
+    //cv::Mat normalizedImage;
+    //getOptimalSizeImage(input, normalizedImage);
+    //input = normalizedImage;
 
 
     value = AnalyzeResult();
