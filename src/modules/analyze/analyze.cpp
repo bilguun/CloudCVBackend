@@ -115,10 +115,12 @@ void buildFromImage(cv::Mat input, ImageInformation& value)
     if (input.channels() == 1)
     {
         value.grayscaleImage = input;
+        threshold(value.grayscaleImage, value.grayscaleImage,127,255,CV_THRESH_BINARY);
     }
     else
     {
         cv::cvtColor(input, value.grayscaleImage, cv::COLOR_BGR2GRAY);
+        threshold(value.grayscaleImage, value.grayscaleImage,127,255,CV_THRESH_BINARY);
     }
 
     value.hasColor = input.channels() == 3 || input.channels() == 4;
